@@ -5,36 +5,43 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-body {font-family: "Roboto", sans-serif; }
+body,html {
+  height: 100%;
+  font-family: "Roboto", sans-serif; 
+
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/img/splash0.jpg");
+  min-height: 40%;
+  max-width: 100%;
+}
 
 </style>
 <body>
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+<div class="w3-top" >
+  <div class="w3-bar w3-dark-grey w3-wide w3-padding w3-card" style=" opacity:0.90">
     <img src="./img/LogoSCSistemi.svg" style="height:40px;">
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="#news" class="w3-bar-item w3-button">News</a>
+      <a href="#home" class="w3-bar-item w3-button ">Home</a>
+      <a href="#news" class="w3-bar-item w3-button ">News</a>
       <a href="#about" class="w3-bar-item w3-button">About</a>
       <a href="#contact" class="w3-bar-item w3-button">Contact</a>
     </div>
   </div>
 </div>
 
-<!-- Header 
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="./img/Background000.svg" alt="Architecture" width="1500" height="800">
-  <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>SCS</b></span> <span class="w3-small w3-text-light-grey">Sistemi- Controllo - Supervisione</span></h1>
-  </div>
-</header>-->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>SCS</b></span> <span class="w3-small w3-text-light-grey">Sistemi- Controllo - Supervisione</span></h1>
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-max" id="home">
+
   </div>
 </header>
+
     
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1000px">
@@ -51,37 +58,36 @@ body {font-family: "Roboto", sans-serif; }
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Novità</h3>
 
 
-<div class="w3-panel w3-yellow w3-leftbar w3-card w3-border-blue">
+<div class="w3-panel w3-light-grey w3-leftbar w3-card w3-border-grey">
     <h2>30/10/2013 - Servizio attivazione MView</h2>
     <p>Nuovo servizio di attivazione licenze MView
 Segui il link nel pannello di navigazione</p>
 <p><a href="http://www.scsistemi.it/MView/CodeGen">MView code generator</a></p>   
 </div>
 
-<div class="w3-panel w3-pale-blue w3-leftbar w3-card w3-border-blue">
+<div class="w3-panel w3-light-grey w3-leftbar w3-card w3-border-grey">
     <h2>20/09/2013 - Ultima versione </h2>
 <p><a href="https://app.box.com/s/zo9rv0kbb9c1xg8rxh0xfglcec666pjs">Open link to MViewD11</a></p>   
 </div>
 
-<div class="w3-panel w3-pale-blue w3-leftbar w3-card w3-border-blue">
+<div class="w3-panel w3-light-grey w3-leftbar w3-card w3-border-grey">
     <h2>15/09/2013 - Info</h2>
 <p>Si riparte!?...</p>    
 </div>
 
-<div class="w3-panel w3-pale-blue w3-leftbar w3-card w3-border-blue">
+<div class="w3-panel w3-light-grey w3-leftbar w3-card w3-border-grey">
     <h2>15/09/2013 - Info</h2>
 <p>Ho eliminato gli shoutbox perchè gli utenti continuavano ad inserire cose strane...</p>    
 </div>      
       
   </div>
 
-<!-- Project Section -->
+<!-- Project Section
   <div class="w3-container w3-padding-32" id="projects">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Progetti</h3>
       
-  </div>
+  </div>  -->
 
-    
     
 <!-- 
   <div class="w3-row-padding">
@@ -206,7 +212,7 @@ Segui il link nel pannello di navigazione</p>
 
 
 <!-- Footer -->
-<footer class="w3-center w3-blue w3-padding-16">
+<footer class="w3-center w3-blue w3-padding-16" style=" opacity:0.60">
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-yellow">w3.css</a></p><p>©2013 SCSistemi - Contatti - Privacy policy</p>
 </footer>
 
