@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <script src="/script/w3.js"></script>
-  <body onload="Genera()">
+  <body>
     <div w3-include-html="/snippets/page-header.html"></div>
 
     <div w3-include-html="/snippets/image-list.html"></div>
@@ -15,12 +15,7 @@
 
 <script>
   w3.includeHTML(CaricaImmagini)
-  function Generawdd() {
-  w3.getHttpObject("/img/PrimoAlbum/AlbumConfig.json", (x)=>{
-    
-      w3.displayObject("id01", x);
-    });
-  }
+
   function CaricaImmagini() {
   w3.getHttpObject("/img/PrimoAlbum/AlbumConfig.json", (x)=>{
     
