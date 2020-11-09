@@ -1,6 +1,7 @@
 {
     "Titolo album":"Primo album",
     "Percorso":"/img/PrimoAlbum/",
+    "FileNumber":21,
     "array-immagini":[
         {"Immagine":"00 00 26.jpg"},
         {"Immagine":"00 01 26.jpg"},
