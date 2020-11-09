@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <title>SCSistemi - HomePage</title>
+  <title>SCSistemi - Album</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <body>
+  <script src="/script/w3.js"></script>
+  <body onload="genera()">
     <div w3-include-html="/snippets/page-header.html"></div>
 
-    <div w3-include-html="/pages/album.html"></div>
-    
-    <div w3-include-html="/snippets/footer.html"></div>
+    <div w3-include-html="/snippets/image-list.html"></div>
 
-  </body>
-  <script type="text/javascript" src="/script/include.js"></script>
+    <div w3-include-html="/snippets/footer.html"></div>
+</body>
+
+<script>
+  w3.includeHTML()
+  function genera() {
+    
+  w3.getHttpObject("/img/PrimoAlbum/AlbumConfig.json", (x)=>{
+    w3.displayObject("id01", x);
+  });
+  
+}
+
+</script>
+
+
 </html>

@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="/script/w3.js"></script>
 <style>
 body,html {
   height: 100%;
@@ -26,10 +27,10 @@ body,html {
 
   <div w3-include-html="/snippets/main-header.html"></div>
 
-  <div w3-include-html="/pages/main-info.html"></div>
+  <div w3-include-html="/snippets/main-info.html"></div>
   
   <div w3-include-html="/snippets/footer.html"></div>
 
 </body>
-<script type="text/javascript" src="/script/include.js"></script>
+<script>w3.includeHTML();</script>
 </html>

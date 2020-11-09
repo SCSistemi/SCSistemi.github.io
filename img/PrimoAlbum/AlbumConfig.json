@@ -1,0 +1,20 @@
+{
+    "Titolo album":"Primo album",
+    "Percorso":"/img/PrimoAlbum/",
+    "array-immagini":[
+        {"Immagine":"00 00 26.jpg"},
+        {"Immagine":"00 01 26.jpg"},
+        {"Immagine":"00 03 26.jpg"},
+        {"Immagine":"100_0829.jpg"},
+        {"Immagine":"100_0830.jpg"},
+        {"Immagine":"100_0831.jpg"},
+        {"Immagine":"100_0836.jpg"},
+        {"Immagine":"100_0839.jpg"},
+        {"Immagine":"100_0840.jpg"},
+        {"Immagine":"100_0841.jpg"},
+        {"Immagine":"100_0842.jpg"},
+        {"Immagine":"100_0843.jpg"},
+        {"Immagine":"100_0844.jpg"},
+        {"Immagine":"100_0845.jpg"}
+    ]
+  }
