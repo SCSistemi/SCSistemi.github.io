@@ -1,12 +1,13 @@
-<div class="w3-content w3-padding"  id="id01" style="max-width:1200px">
-    <h1>{{Titolo album}}</h1>
+<div class="w3-content w3-padding" id="id01" style="max-width:1200px">
+    <h1>{{Titolo Album}}</h1>
     <!--<button onclick="CaricaImmagini()">Carica immagini</button>-->
     <div class="w3-row-padding">
-        <div class="w3-quarter" w3-repeat="array-immagini">
+        <div class="w3-quarter w3-padding" w3-repeat="array">
             <div class="w3-card">
-                <img src="{{Percorso}}tumb/{{Immagine}}" id="id07" style="width:100%">
+                <a href="{{Immagine}}">
+                <img src="{{Tumb}}" style="width:100%"></a>
                 <div class="w3-container">
-                <p>{{Immagine}}</p>
+                <p>{{Titolo}}</p>
                 </div>
             </div>
         </div>

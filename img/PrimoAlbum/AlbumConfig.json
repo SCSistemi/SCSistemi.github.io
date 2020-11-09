@@ -1,28 +1,55 @@
 {
-    "Titolo album":"Primo album",
-    "Percorso":"/img/PrimoAlbum/",
-    "FileNumber":21,
-    "array-immagini":[
-        {"Immagine":"00 00 26.jpg"},
-        {"Immagine":"00 01 26.jpg"},
-        {"Immagine":"00 02 26.jpg"},
-        {"Immagine":"00 03 26.jpg"},
-        {"Immagine":"00 04 26.jpg"},
-        {"Immagine":"00 05 26.jpg"},
-        {"Immagine":"00 06 26.jpg"},
-        {"Immagine":"00 07 26.jpg"},
-        {"Immagine":"00 08 26.jpg"},
-        {"Immagine":"00 09 26.jpg"},
-        {"Immagine":"100_0829.jpg"},
-        {"Immagine":"100_0830.jpg"},
-        {"Immagine":"100_0831.jpg"},
-        {"Immagine":"100_0836.jpg"},
-        {"Immagine":"100_0839.jpg"},
-        {"Immagine":"100_0840.jpg"},
-        {"Immagine":"100_0841.jpg"},
-        {"Immagine":"100_0842.jpg"},
-        {"Immagine":"100_0843.jpg"},
-        {"Immagine":"100_0844.jpg"},
-        {"Immagine":"100_0845.jpg"}
+    "Titolo Album":"Primo album",
+    "array":[
+        {
+            "Immagine":"/img/PrimoAlbum/img (1).png",
+            "Tumb":"/img/PrimoAlbum/tumb/img (1).jpg",
+            "Titolo":"Descrizione1"
+        },
+        {
+            "Immagine":"/img/PrimoAlbum/img (2).png",
+            "Tumb":"/img/PrimoAlbum/tumb/img (2).jpg",
+            "Titolo":"Descrizione2"
+        },
+        {
+            "Immagine":"/img/PrimoAlbum/img (3).png",
+            "Tumb":"/img/PrimoAlbum/tumb/img (3).jpg",
+            "Titolo":"Descrizione3"
+        },
+        {
+            "Immagine":"/img/PrimoAlbum/img (4).png",
+            "Tumb":"/img/PrimoAlbum/tumb/img (4).jpg",
+            "Titolo":"Descrizione4"
+        },
+        {
+            "Immagine":"/img/PrimoAlbum/img (5).png",
+            "Tumb":"/img/PrimoAlbum/tumb/img (5).jpg",
+            "Titolo":"Descrizione5"
+        },
+        {
+            "Immagine":"/img/PrimoAlbum/img (6).png",
+            "Tumb":"/img/PrimoAlbum/tumb/img (6).jpg",
+            "Titolo":"Descrizione5"
+        },
+        {
+            "Immagine":"/img/PrimoAlbum/img (18).jpg",
+            "Tumb":"/img/PrimoAlbum/tumb/img (18).jpg",
+            "Titolo":"Descrizione4"
+        },
+        {
+            "Immagine":"/img/PrimoAlbum/img (19).jpg",
+            "Tumb":"/img/PrimoAlbum/tumb/img (19).jpg",
+            "Titolo":"Descrizione4"
+        },
+        {
+            "Immagine":"/img/PrimoAlbum/img (20).jpg",
+            "Tumb":"/img/PrimoAlbum/tumb/img (20).jpg",
+            "Titolo":"Descrizione4"
+        },
+        {
+            "Immagine":"/img/PrimoAlbum/img (21).jpg",
+            "Tumb":"/img/PrimoAlbum/tumb/img (21).jpg",
+            "Titolo":"Descrizione4"
+        }
     ]
-  }
+}

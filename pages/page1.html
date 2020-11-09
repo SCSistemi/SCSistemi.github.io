@@ -14,18 +14,13 @@
 </body>
 
 <script>
+
+  w3.includeHTML(()=> {
     w3.getHttpObject("/img/PrimoAlbum/AlbumConfig.json", (x)=>{
-      w3.includeHTML(()=> {
-        w3.displayObject("id01", x);
+    
+      w3.displayObject("id01", x);
     });
   })
-  
-  //w3.includeHML(()=> {
-  //  w3.getHttpObject("/img/PrimoAlbum/AlbumConfig.json", (x)=>{
-  //  
-  //    w3.displayObject("id01", x);
-  //  });
-  //})
 
 </script>
 
